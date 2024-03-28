@@ -16,3 +16,13 @@ body {
     width: 50%;
     height: auto;
 }
+
+@media (max-width: 1500px) { /* Bootstrap's breakpoint for small devices */
+    .accordion-body {
+      overflow-x: auto; /* Allow horizontal scrolling */
+    }
+    
+    .table {
+      min-width: 968px; /* Set a minimum width to ensure table doesn't get squished */
+    }
+  }
