@@ -2,7 +2,7 @@ const sageAccordion = `
     <div class="accordion" id="sageTable">
         <div class="accordion-item">
             <h2 class="accordion-header" id="sageTraits">
-            <h2 class="text-center">Sage</h2>
+            <h1 class="text-center metal-mania-regular">SAGE</h1>
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#flush-collapseSageTraits" aria-expanded="false"
                     aria-controls="flush-collapseSageTraits">
@@ -123,7 +123,7 @@ const sageAccordion = `
                                     <br>
                                     <br>
                                     <b>Elements</b>
-                                    +40% Elemental Effect Chance (Main Weapon)
+                                    +40% Elemental Effect Chance (MW)
                                 </td>
                             </tr>
                             <tr>
@@ -132,7 +132,7 @@ const sageAccordion = `
                                     <b>Focus Mind</b>
                                    +10% Damage (MW) 
                                    <br>
-                                   +10% Force (Main Weapon)
+                                   +10% Force (MW)
                                     <br>
                                     <br>
                                     <b>Open Mind</b>
@@ -237,7 +237,7 @@ const sageAccordion = `
 
 const beastAccordion = `<div class="accordion" id="beastTable">
     <div class="accordion-item">
-    <h2 class="text-center">Beast Huntress</h2>
+    <h1 class="text-center metal-mania-regular">Beast Huntress</h1>
         <h2 class="accordion-header" id="beastTraits">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#flush-collapseBeastTraits" aria-expanded="false"
@@ -263,47 +263,42 @@ const beastAccordion = `<div class="accordion" id="beastTable">
                             <th scope="row">Proficiency</th>
                             <td>
                                 <b>Frost Bite</b>
-                               
                                 +15% Damage (Ice)
                                 <br>
                                 <br>
                                 <b>Piercing</b>
-                              
-                                +0.05 Base Crit Chance (MW) +15% Crit Bonus (MW)
+                                +0.05 Base Crit Chance (MW) 
+                                <br>
+                                +15% Crit Bonus (MW)
                             </td>
                             <td>
                                 <b>Frost Bite</b>
-                              
                                 +15% Damage (Ice) 
                                 <br>
                                 <br>
                                 <b>Piercing</b>
-                              
                                 +0.05 Base Crit Chance (MW) +15% Crit Bonus (MW)
                             </td>
                             <td>
                                 <b>Frost Bite</b>
-                               
                                 +15% Damage (Ice)
                                 <br>
                                 <br>
                                 <b>Piercing</b>
-                               
                                 +0.05 Base Crit Chance (MW) +15% Crit Bonus (MW)
                             </td>
                             <td>
                                 <b>Frost Bite</b>
-                               
                                 +30% Frost Damage 
                                 <br>
                                 <br>
                                 <b>Piercing</b>
-                               
-                                +0.10 Base Crit Chance (MW) +30% Crit Bonus (MW) 
+                                +0.10 Base Crit Chance (MW)
+                                <br>
+                                +30% Crit Bonus (MW) 
                                 <br>
                                 <br>
                                 <b>Throat Clamp</b>
-                               
                                 +0.20 Base Crit Bonus (Hound)
                             </td>
                         </tr>
@@ -311,47 +306,38 @@ const beastAccordion = `<div class="accordion" id="beastTable">
                             <th scope="row">Stance</th>
                             <td>
                                 <b>Blizzard</b>
-                               
                                 +20% Frost Chance 
                                 <br>
                                 <br>
                                 <b>Power</b>
-                               
                                 +20% Damage (MW)
                             </td>
                             <td>
                                 <b>Blizzard</b>
-                               
                                 +20% Frost Chance 
                                 <br>
                                 <br>
                                 <b>Power</b>
-                               
                                 +20% Damage (MW)
                             </td>
                             <td>
                                 <b>Blizzard</b>
-                               
                                 +20% Frost Chance 
                                 <br>
                                 <br>
                                 <b>Power</b>
-                               
                                 +20% Damage (MW)
                             </td>
                             <td>
                                 <b>Blizzard</b>
-                               
                                 +40% Frost Chance 
                                 <br>
                                 <br>
                                 <b>Power</b>
-                               
                                 +40% Damage (MW) 
                                 <br>
                                 <br>
                                 <b>Wild Hound</b>
-                               
                                 +100% Attackspeed (Hound) 
                                 <br>
                                 +40% Area (Hound) 
@@ -363,43 +349,37 @@ const beastAccordion = `<div class="accordion" id="beastTable">
                             <th scope="row">Dedication</th>
                             <td>
                                 <b>Flight</b>
-                               
                                 +15% Force (MW) +3 Base Defense 
                                 <br>
                                 <br>
                                 <b>Flight</b>
-                               
                                 +9% Movement Speed +50 Base Health
                             </td>
                             <td>
                                 <b>Fight</b>
-                               
                                 +15% Force (MW) +50 Base Health 
                                 <br>
                                 <br>
                                 <b>Flight</b>
-                               
                                 +9% Movement Speed +0.25/s Base Regeneration
                             </td>
                             <td>
                                 <b>Fight</b>
-                               
                                 +15% Force (MW) +3 Base Defense 
                                 <br>
                                 <br>
                                 <b>Flight</b>
-                               
                                 +9% Movement Speed +50 Base Health
                             </td>
                             <td>
                                 <b>Fight</b>
-                               
                                 +15% Force (MW) +50 Base Health 
                                 <br>
                                 <br>
                                 <b>Flight</b>
-                               
-                                +9% Movement Speed +0.25/s Base Regeneration
+                                +9% Movement Speed 
+                                <br>
+                                +0.25/s Base Regeneration
                             </td>
                         </tr>
                     </tbody>
