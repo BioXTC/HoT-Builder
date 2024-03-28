@@ -3,9 +3,8 @@ const defaultState = `<p>Select a class</p>`;
 // Function to update the accordion content based on the selected class and target container
 function updateAccordionContent(selectedClass, targetContainer) {
     const accordionMap = {
-      sage: sageAccordion, // Assuming sageAccordion is defined somewhere as the HTML content for Sage
-      beast: beastAccordion, // Assuming beastAccordion is defined somewhere as the HTML content for Beast Huntress
-      default: defaultState,
+      sage: sageAccordion,
+      beast: beastAccordion
     };
   
     document.getElementById(targetContainer).innerHTML = accordionMap[selectedClass] || 'Select a class';
@@ -22,6 +21,6 @@ function updateAccordionContent(selectedClass, targetContainer) {
   });
   
   // Initialize both accordions with default content
-  updateAccordionContent('defaultState', 'accordionContainer_left');
-  updateAccordionContent('defaultState', 'accordionContainer_right');
+  updateAccordionContent('sage', 'accordionContainer_left');
+  updateAccordionContent('sage', 'accordionContainer_right');
   

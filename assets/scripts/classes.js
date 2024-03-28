@@ -26,76 +26,143 @@ const sageAccordion = `
                             <tr>
                                 <th scope="row">Proficiency</th>
                                 <td>
-                                    <h3>Spread</h3> +10% Area (Main Weapon) +10% Range (Main Weapon)
-                                    +10%
-                                    Force (Main Weapon) <h3> Strengthen </h3> +0.1 Base Crit Chance
+                                    <b>Spread</b>
+                                    <br> 
+                                    +10% Area (Main Weapon) +10% Range (Main Weapon) +10% Force (Main Weapon) 
+                                    <br>
+                                    <br> 
+                                    <b>Strengthen</b>
+                                    <br> 
+                                    +0.1 Base Crit Chance
                                     (Abilities)
                                 </td>
                                 <td>
-                                    <h3>Spread</h3> +10% Area (Main Weapon) +10% Range (Main Weapon)
+                                    <b>Spread</b> 
+                                    <br>
+                                    +10% Area (Main Weapon) +10% Range (Main Weapon)
+                                    +10% Force (Main Weapon)
+                                    <br>
+                                    <br>
+                                    <b>Strengthen</b>
+                                    <br>
+                                     +0.1 Base Crit Chance (Abilities)
+                                </td>
+                                <td>
+                                    <b>Spread</b> 
+                                    <br>
+                                     +10% Area (Main Weapon) +10% Range (Main Weapon)
                                     +10%
-                                    Force (Main Weapon) <h3> Strengthen </h3> +0.1 Base Crit Chance
+                                    Force (Main Weapon) 
+                                    <br>
+                                    <br>
+                                    <b>Strengthen</b>
+                                    <br>
+                                     +0.1 Base Crit Chance
                                     (Abilities)
                                 </td>
                                 <td>
-                                    <h3>Spread</h3> +10% Area (Main Weapon) +10% Range (Main Weapon)
-                                    +10%
-                                    Force (Main Weapon) <h3> Strengthen </h3> +0.1 Base Crit Chance
-                                    (Abilities)
-                                </td>
-                                <td>
-                                    <h3>Spread</h3> +20% Area (Main Weapon) +20% Range (Main Weapon)
+                                    <b>Spread</b> 
+                                    <br>
+                                    +20% Area (Main Weapon) +20% Range (Main Weapon)
                                     +20%
-                                    Force (Main Weapon) <h3> Strengthen </h3> +15 Base Damage
+                                    Force (Main Weapon) 
+                                    <br>
+                                    <br>
+                                    <b> Strengthen </b>
+                                    <br> +15 Base Damage
                                     (Abilities)
                                 </td>
                             </tr>
                             <tr>
                                 <th scope="row">Stance</th>
                                 <td>
-                                    <h3>Concentration</h3>+50% Damage (Abilities)-25% Attack Speed
-                                    (Abilities)-25% Movement Speed (Abilities)<h3>Elements</h3>+20%
+                                    <b>Concentration</b>
+                                    <br>
+                                    +50% Damage (Abilities)-25% Attack Speed
+                                    (Abilities)-25% Movement Speed (Abilities)
+                                    <br>
+                                    <br>
+                                    <b>Elements</b>
+                                    <br>+20%
                                     Elemental Effect Chance (Main Weapon)
                                 </td>
                                 <td>
-                                    <h3>Concentration</h3>+50% Crit Chance (Abilities)-10% Attack Speed
-                                    (Abilities)-20% Force (Abilities)<h3>Elements</h3>+20% Elemental
+                                    <b>Concentration</b>
+                                    <br>+50% Crit Chance (Abilities)-10% Attack Speed
+                                    (Abilities)-20% Force (Abilities)
+                                    <br>
+                                    <br>
+                                    <b>Elements</b>
+                                    <br>
+                                    +20% Elemental
                                     Effect
                                     Chance (Main Weapon)
                                 </td>
                                 <td>
-                                    <h3>Concentration</h3>+50% Crit Bonus (Abilities)-25% Area
-                                    (Abilities)-25% Range (Abilities)<h3>Elements</h3>+20% Elemental
+                                    <b>Concentration</b>
+                                    <br>
+                                    +50% Crit Bonus (Abilities)-25% Area
+                                    (Abilities)-25% Range (Abilities)
+                                    <br>
+                                    <br>
+                                    <b>Elements</b>
+                                    <br>+20% Elemental
                                     Effect
                                     Chance (Main Weapon)
                                 </td>
                                 <td>
-                                    <h3>Concentration</h3>+75% Damage (Abilities)-25% Multistrike
-                                    (Abilities)<h3>Elements</h3>+40% Elemental Effect Chance (Main
+                                    <b>Concentration</b>
+                                    <br>
+                                    +75% Damage (Abilities)-25% Multistrike
+                                    (Abilities)
+                                    <br>
+                                    <br>
+                                    <b>Elements</b>
+                                    <br>
+                                    +40% Elemental Effect Chance (Main
                                     Weapon)
                                 </td>
                             </tr>
                             <tr>
                                 <th scope="row">Dedication</th>
                                 <td>
-                                    <h3>Focus Mind</h3>+10% Damage (Main Weapon) +10% Force (Main
+                                    <b>Focus Mind</b>
+                                    <br>
+                                    +10% Damage (Main Weapon) +10% Force (Main
                                     Weapon)
-                                    <h3>Open Mind</h3>+1.0m Base Pickup Rang+3% Experience Gain
+                                    <br>
+                                    <br>
+                                    <b>Open Mind</b>
+                                    <br>
+                                    +1.0m Base Pickup Rang+3% Experience Gain
                                 </td>
                                 <td>
-                                    <h3>Focus Mind</h3>+10% Damage (Main Weapon)+10% Force (Main Weapon)
-                                    <h3>
-                                        Open Mind</h3>+0.5m Base Pickup Rang+5% Experience Gain
+                                    <b>Focus Mind</b> 
+                                    <br>
+                                    +10% Damage (Main Weapon)+10% Force (Main Weapon)
+                                    <br>
+                                    <br>
+                                    <b>Open Mind</b>
+                                    <br>
+                                    +0.5m Base Pickup Rang+5% Experience Gain
                                 </td>
                                 <td>
-                                    <h3>Focus Mind</h3>+10% Damage (Main Weapon)+10% Force (Main Weapon)
-                                    <h3>
-                                        Open Mind</h3>+7% Experience Gain
+                                    <b>Focus Mind</b>
+                                    <br>
+                                    +10% Damage (Main Weapon)+10% Force (Main Weapon)
+                                    <br>
+                                    <br>
+                                    <b>Open Mind</b>
+                                    <br>
+                                    +7% Experience Gain
                                 </td>
                                 <td>
-                                    <h3>Focus Mind</h3>+20% Damage (Main Weapon)+20% Force (Main Weapon)
-                                    <h3>
-                                        Open Mind</h3>+10% Experience Gain
+                                    <b>Focus Mind</b> 
+                                    <br>
+                                    +20% Damage (Main Weapon)+20% Force (Main Weapon)
+                                    <br>
+                                    <br>
+                                    <b>Open Mind</b>+10% Experience Gain
                                 </td>
                             </tr>
                         </tbody>
@@ -128,7 +195,8 @@ const sageAccordion = `
                                     <td>Vitality (Health)</td>
                                     <td>Movement Speed: 4.5m/s</td>
                                     <td>
-                                        <h3>Per Level</h3>
+                                        <b>Per Level</b>
+                                        <br>
                                         Pickup Range +1%
                                         <br>
                                         Damage +1%
@@ -188,45 +256,140 @@ const sageAccordion = `
                         <tr>
                             <th scope="row">Proficiency</th>
                             <td>
-                                <h3>Frost Bite</h3> +15% Damage (Ice) <h3>Piercing</h3> +0.05 Base Crit Chance (Main Weapon) +15% Crit Bonus (Main Weapon)
+                                <b>Frost Bite</b>
+                                <br> 
+                                +15% Damage (Ice) 
+                                <br>
+                                <br>
+                                <b>Piercing</b>
+                                <br> 
+                                +0.05 Base Crit Chance (Main Weapon) +15% Crit Bonus (Main Weapon)
                             </td>
                             <td>
-                                <h3>Frost Bite</h3> +15% Damage (Ice) <h3>Piercing</h3> +0.05 Base Crit Chance (Main Weapon) +15% Crit Bonus (Main Weapon)
+                                <b>Frost Bite</b>
+                                <br> 
+                                +15% Damage (Ice) 
+                                <br>
+                                <br>
+                                <b>Piercing</b>
+                                <br> 
+                                +0.05 Base Crit Chance (Main Weapon) +15% Crit Bonus (Main Weapon)
                             </td>
                             <td>
-                                <h3>Frost Bite</h3> +15% Damage (Ice) <h3>Piercing</h3> +0.05 Base Crit Chance (Main Weapon) +15% Crit Bonus (Main Weapon)
+                                <b>Frost Bite</b>
+                                <br> 
+                                +15% Damage (Ice)
+                                <br>
+                                <br>
+                                <b>Piercing</b>
+                                <br> 
+                                +0.05 Base Crit Chance (Main Weapon) +15% Crit Bonus (Main Weapon)
                             </td>
                             <td>
-                            <h3>Frost Bite</h3> +30% Frost Damage <h3>Piercing</h3> +0.10 Base Crit Chance (Main Weapon) +30% Crit Bonus (Main Weapon) <h3>Throat Clamp</h3> +0.20 Base Crit Bonus (Hound)
+                                <b>Frost Bite</b>
+                                <br> 
+                                +30% Frost Damage 
+                                <br>
+                                <br>
+                                <b>Piercing</b>
+                                <br> 
+                                +0.10 Base Crit Chance (Main Weapon) +30% Crit Bonus (Main Weapon) 
+                                <br>
+                                <br>
+                                <b>Throat Clamp</b>
+                                <br> 
+                                +0.20 Base Crit Bonus (Hound)
+                            </td>
                         </tr>
                         <tr>
                             <th scope="row">Stance</th>
                             <td>
-                            <h3>Blizzard</h3> +20% Frost Chance <h3>Power</h3> +20% Damage (Main Weapon)
+                                <b>Blizzard</b>
+                                <br> 
+                                +20% Frost Chance 
+                                <br>
+                                <br>
+                                <b>Power</b>
+                                <br> 
+                                +20% Damage (Main Weapon)
                             </td>
                             <td>
-                            <h3>Blizzard</h3> +20% Frost Chance <h3>Power</h3> +20% Damage (Main Weapon)
+                                <b>Blizzard</b>
+                                <br> 
+                                +20% Frost Chance 
+                                <br>
+                                <br>
+                                <b>Power</b>
+                                <br> 
+                                +20% Damage (Main Weapon)
                             </td>
                             <td>
-                            <h3>Blizzard</h3> +20% Frost Chance <h3>Power</h3> +20% Damage (Main Weapon)
+                                <b>Blizzard</b>
+                                <br> 
+                                +20% Frost Chance 
+                                <br>
+                                <br>
+                                <b>Power</b>
+                                <br> 
+                                +20% Damage (Main Weapon)
                             </td>
                             <td>
-                            <h3>Blizzard</h3> +40% Frost Chance <h3>Power</h3> +40% Damage (Main Weapon) <h3>Wild Hound</h3> +100% Attackspeed (Hound) +40% Area (Hound) +150 Base Damage (Hound)
+                                <b>Blizzard</b>
+                                <br> 
+                                +40% Frost Chance 
+                                <br>
+                                <br>
+                                <b>Power</b>
+                                <br> 
+                                +40% Damage (Main Weapon) 
+                                <br>
+                                <br>
+                                <b>Wild Hound</b>
+                                <br> 
+                                +100% Attackspeed (Hound) +40% Area (Hound) +150 Base Damage (Hound)
                             </td>
                         </tr>
                         <tr>
                             <th scope="row">Dedication</th>
                             <td>
-                            <h3>Flight</h3> +15% Force (Main Weapon) +3 Base Defense <h3>Flight</h3> +9% Movement Speed +50 Base Health
+                                <b>Flight</b>
+                                <br> 
+                                +15% Force (Main Weapon) +3 Base Defense 
+                                <br>
+                                <br>
+                                <b>Flight</b>
+                                <br> 
+                                +9% Movement Speed +50 Base Health
                             </td>
                             <td>
-                            <h3>Fight</h3> +15% Force (Main Weapon) +50 Base Health <h3>Flight</h3> +9% Movement Speed +0.25/s Base Regeneration
+                                <b>Fight</b>
+                                <br> 
+                                +15% Force (Main Weapon) +50 Base Health 
+                                <br>
+                                <br>
+                                <b>Flight</b>
+                                <br> 
+                                +9% Movement Speed +0.25/s Base Regeneration
                             </td>
                             <td>
-                            <h3>Fight</h3> +15% Force (Main Weapon) +3 Base Defense <h3>Flight</h3> +9% Movement Speed +50 Base Health
+                                <b>Fight</b>
+                                <br> 
+                                +15% Force (Main Weapon) +3 Base Defense 
+                                <br>
+                                <br>
+                                <b>Flight</b>
+                                <br> 
+                                +9% Movement Speed +50 Base Health
                             </td>
                             <td>
-                            <h3>Fight</h3> +15% Force (Main Weapon) +50 Base Health <h3>Flight</h3> +9% Movement Speed +0.25/s Base Regeneration
+                                <b>Fight</b>
+                                <br> 
+                                +15% Force (Main Weapon) +50 Base Health 
+                                <br>
+                                <br>
+                                <b>Flight</b>
+                                <br> 
+                                +9% Movement Speed +0.25/s Base Regeneration
                             </td>
                         </tr>
                     </tbody>
@@ -259,7 +422,8 @@ const sageAccordion = `
                                 <td>Vitality (Health)</td>
                                 <td>Movement Speed: 4.5m/s</td>
                                 <td>
-                                    <h3>Per Level</h3>
+                                    <b>Per Level</b>
+                                    <br>
                                     Pickup Range +1%
                                     <br>
                                     Damage +1%
@@ -269,7 +433,6 @@ const sageAccordion = `
                                 <td scope="row">Health Regeneration: 0.0/s</td>
                                 <td>Metabolism (Health Regeneration)</td>
                                 <td>Pickup Range: 2.5m</td>
-
                             </tr>
                             <tr>
                                 <td scope="row">Defense: 0</td>
@@ -279,7 +442,6 @@ const sageAccordion = `
                             <tr>
                                 <td scope="row">Block Strength: 0</td>
                                 <td>Thick Hide (Defense)</td>
-
                             </tr>
                         </tbody>
                     </table>
