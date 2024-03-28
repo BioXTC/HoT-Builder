@@ -26,3 +26,8 @@ body {
       min-width: 968px; /* Set a minimum width to ensure table doesn't get squished */
     }
   }
+
+  #dropNav {
+    display: flex;
+    justify-content: center;
+  }
