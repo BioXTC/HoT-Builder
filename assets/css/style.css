@@ -54,6 +54,8 @@ body {
   --bs-accordion-border-width: 0;
 }
 
+
+
 .accordion-button::after {
   -webkit-filter: grayscale(1);
   filter: grayscale(1);

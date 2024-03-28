@@ -235,10 +235,11 @@ const sageAccordion = `
 
     `;
 
-const beastAccordion = `<div class="accordion" id="beastTable">
+const beastAccordion = `
+<div class="accordion" id="beastTable">
     <div class="accordion-item">
-    <h1 class="text-center metal-mania-regular">Beast Huntress</h1>
-        <h2 class="accordion-header" id="beastTraits">
+    
+        <h2 class="accordion-header" id="beastTraits"><h1 class="text-center metal-mania-regular">Beast Huntress</h1>
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#flush-collapseBeastTraits" aria-expanded="false"
                 aria-controls="flush-collapseBeastTraits">
@@ -369,7 +370,9 @@ const beastAccordion = `<div class="accordion" id="beastTable">
                                 <br>
                                 <br>
                                 <b>Flight</b>
-                                +9% Movement Speed +50 Base Health
+                                +9% Movement Speed 
+                                <br>
+                                +50 Base Health
                             </td>
                             <td>
                                 <b>Fight</b>

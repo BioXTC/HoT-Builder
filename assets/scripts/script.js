@@ -1,10 +1,11 @@
-const defaultState = `<p>Select a class</p>`;
+const selectClass = `<p class="text-center text-light">Pick a class!</p>`;
 
 // Function to update the accordion content based on the selected class and target container
 function updateAccordionContent(selectedClass, targetContainer) {
     const accordionMap = {
       sage: sageAccordion,
-      beast: beastAccordion
+      beast: beastAccordion,
+      select: selectClass
     };
   
     document.getElementById(targetContainer).innerHTML = accordionMap[selectedClass] || 'Select a class';
@@ -21,6 +22,6 @@ function updateAccordionContent(selectedClass, targetContainer) {
   });
   
   // Initialize both accordions with default content
-  updateAccordionContent('sage', 'accordionContainer_left');
-  updateAccordionContent('sage', 'accordionContainer_right');
+  updateAccordionContent('select', 'accordionContainer_left');
+  updateAccordionContent('select', 'accordionContainer_right');
   
