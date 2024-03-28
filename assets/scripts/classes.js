@@ -1,5 +1,5 @@
 const sageAccordion = `
-    <div class="accordion accordion-flush" id="sageTable">
+    <div class="accordion" id="sageTable">
         <div class="accordion-item">
             <h2 class="accordion-header" id="sageTraits">
             <h2 class="text-center">Sage</h2>
@@ -27,142 +27,150 @@ const sageAccordion = `
                                 <th scope="row">Proficiency</th>
                                 <td>
                                     <b>Spread</b>
-                                    <br> 
-                                    +10% Area (Main Weapon) +10% Range (Main Weapon) +10% Force (Main Weapon) 
+                                    +10% Area (MW) 
                                     <br>
+                                    +10% Range (MW)
                                     <br> 
+                                    +10% Force (MW) 
+                                    <br>
                                     <b>Strengthen</b>
-                                    <br> 
+                                    +0.1 Base Crit Chance (A)
+                                </td>
+                                <td>
+                                    <b>Spread</b>
+                                    +10% Area (MW) 
+                                    <br>
+                                    +10% Range (MW)
+                                    <br>
+                                    +10% Force (MW)
+                                    <br>
+                                    <br>
+                                    <b>Strengthen</b>
+                                   
+                                     +0.1 Base Crit Chance (A)
+                                </td>
+                                <td>
+                                    <b>Spread</b>
+                                     +10% Area (MW) 
+                                     <br>
+                                     +10% Range (MW)
+                                     <br>
+                                     +10% Force (MW) 
+                                    <br>
+                                    <br>
+                                    <b>Strengthen</b>
                                     +0.1 Base Crit Chance
-                                    (Abilities)
+                                    (A)
                                 </td>
                                 <td>
-                                    <b>Spread</b> 
+                                    <b>Spread</b>
+                                    +20% Area (MW) 
                                     <br>
-                                    +10% Area (Main Weapon) +10% Range (Main Weapon)
-                                    +10% Force (Main Weapon)
+                                    +20% Range (MW)
                                     <br>
-                                    <br>
-                                    <b>Strengthen</b>
-                                    <br>
-                                     +0.1 Base Crit Chance (Abilities)
-                                </td>
-                                <td>
-                                    <b>Spread</b> 
-                                    <br>
-                                     +10% Area (Main Weapon) +10% Range (Main Weapon)
-                                    +10%
-                                    Force (Main Weapon) 
-                                    <br>
-                                    <br>
-                                    <b>Strengthen</b>
-                                    <br>
-                                     +0.1 Base Crit Chance
-                                    (Abilities)
-                                </td>
-                                <td>
-                                    <b>Spread</b> 
-                                    <br>
-                                    +20% Area (Main Weapon) +20% Range (Main Weapon)
-                                    +20%
-                                    Force (Main Weapon) 
+                                    +20% Force (MW) 
                                     <br>
                                     <br>
                                     <b> Strengthen </b>
-                                    <br> +15 Base Damage
-                                    (Abilities)
+                                   +15 Base Damage
+                                    (A)
                                 </td>
                             </tr>
                             <tr>
                                 <th scope="row">Stance</th>
                                 <td>
                                     <b>Concentration</b>
+                                    +50% Damage (A)
                                     <br>
-                                    +50% Damage (Abilities)-25% Attack Speed
-                                    (Abilities)-25% Movement Speed (Abilities)
+                                    -25% Attack Speed (A)
+                                    <br>
+                                    -25% Movement Speed (A)
                                     <br>
                                     <br>
                                     <b>Elements</b>
-                                    <br>+20%
-                                    Elemental Effect Chance (Main Weapon)
+                                    +20%
+                                    Elemental Effect Chance (MW)
                                 </td>
                                 <td>
                                     <b>Concentration</b>
-                                    <br>+50% Crit Chance (Abilities)-10% Attack Speed
-                                    (Abilities)-20% Force (Abilities)
+                                   +50% Crit Chance (A)
+                                   <br>
+                                   -10% Attack Speed (A)
+                                    <br>
+                                    -20% Force (A)
                                     <br>
                                     <br>
                                     <b>Elements</b>
-                                    <br>
-                                    +20% Elemental
-                                    Effect
-                                    Chance (Main Weapon)
+                                    +20% Elemental Effect Chance (MW)
                                 </td>
                                 <td>
                                     <b>Concentration</b>
+                                    +50% Crit Bonus (A)
                                     <br>
-                                    +50% Crit Bonus (Abilities)-25% Area
-                                    (Abilities)-25% Range (Abilities)
+                                    -25% Area (A)
+                                    <br>
+                                    -25% Range (A)
                                     <br>
                                     <br>
                                     <b>Elements</b>
-                                    <br>+20% Elemental
-                                    Effect
-                                    Chance (Main Weapon)
+                                    +20% Elemental Effect Chance (MW)
                                 </td>
                                 <td>
                                     <b>Concentration</b>
+                                    +75% Damage (A)
                                     <br>
-                                    +75% Damage (Abilities)-25% Multistrike
-                                    (Abilities)
+                                    -25% Multistrike (A)
                                     <br>
                                     <br>
                                     <b>Elements</b>
-                                    <br>
-                                    +40% Elemental Effect Chance (Main
-                                    Weapon)
+                                    +40% Elemental Effect Chance (Main Weapon)
                                 </td>
                             </tr>
                             <tr>
                                 <th scope="row">Dedication</th>
                                 <td>
                                     <b>Focus Mind</b>
-                                    <br>
-                                    +10% Damage (Main Weapon) +10% Force (Main
-                                    Weapon)
+                                   +10% Damage (MW) 
+                                   <br>
+                                   +10% Force (Main Weapon)
                                     <br>
                                     <br>
                                     <b>Open Mind</b>
+                                    +1.0m Base Pickup Range
                                     <br>
-                                    +1.0m Base Pickup Rang+3% Experience Gain
+                                    +3% Experience Gain
                                 </td>
                                 <td>
                                     <b>Focus Mind</b> 
+                                    +10% Damage (MW)
                                     <br>
-                                    +10% Damage (Main Weapon)+10% Force (Main Weapon)
+                                    +10% Force (MW)
                                     <br>
                                     <br>
                                     <b>Open Mind</b>
+                                    +0.5m Base Pickup Range
                                     <br>
-                                    +0.5m Base Pickup Rang+5% Experience Gain
+                                    +5% Experience Gain
                                 </td>
                                 <td>
                                     <b>Focus Mind</b>
+                                    +10% Damage (MW)
                                     <br>
-                                    +10% Damage (Main Weapon)+10% Force (Main Weapon)
+                                    +10% Force (MW)
                                     <br>
                                     <br>
                                     <b>Open Mind</b>
-                                    <br>
                                     +7% Experience Gain
                                 </td>
                                 <td>
-                                    <b>Focus Mind</b> 
+                                    <b>Focus Mind</b>
+                                    +20% Damage (MW)
                                     <br>
-                                    +20% Damage (Main Weapon)+20% Force (Main Weapon)
+                                    +20% Force (MW)
                                     <br>
                                     <br>
-                                    <b>Open Mind</b>+10% Experience Gain
+                                    <b>Open Mind</b>
+                                    +10% Experience Gain
                                 </td>
                             </tr>
                         </tbody>
@@ -195,8 +203,7 @@ const sageAccordion = `
                                     <td>Vitality (Health)</td>
                                     <td>Movement Speed: 4.5m/s</td>
                                     <td>
-                                        <b>Per Level</b>
-                                        <br>
+                                        <b>Per Level</b>                                     
                                         Pickup Range +1%
                                         <br>
                                         Damage +1%
@@ -216,7 +223,6 @@ const sageAccordion = `
                                 <tr>
                                     <td scope="row">Block Strength: 0</td>
                                     <td>Thick Hide (Defense)</td>
-
                                 </tr>
                             </tbody>
                         </table>
@@ -229,7 +235,7 @@ const sageAccordion = `
 
     `;
 
-    const beastAccordion = `<div class="accordion accordion-flush" id="beastTable">
+const beastAccordion = `<div class="accordion" id="beastTable">
     <div class="accordion-item">
     <h2 class="text-center">Beast Huntress</h2>
         <h2 class="accordion-header" id="beastTraits">
@@ -257,47 +263,47 @@ const sageAccordion = `
                             <th scope="row">Proficiency</th>
                             <td>
                                 <b>Frost Bite</b>
-                                <br> 
-                                +15% Damage (Ice) 
-                                <br>
-                                <br>
-                                <b>Piercing</b>
-                                <br> 
-                                +0.05 Base Crit Chance (Main Weapon) +15% Crit Bonus (Main Weapon)
-                            </td>
-                            <td>
-                                <b>Frost Bite</b>
-                                <br> 
-                                +15% Damage (Ice) 
-                                <br>
-                                <br>
-                                <b>Piercing</b>
-                                <br> 
-                                +0.05 Base Crit Chance (Main Weapon) +15% Crit Bonus (Main Weapon)
-                            </td>
-                            <td>
-                                <b>Frost Bite</b>
-                                <br> 
+                               
                                 +15% Damage (Ice)
                                 <br>
                                 <br>
                                 <b>Piercing</b>
-                                <br> 
-                                +0.05 Base Crit Chance (Main Weapon) +15% Crit Bonus (Main Weapon)
+                              
+                                +0.05 Base Crit Chance (MW) +15% Crit Bonus (MW)
                             </td>
                             <td>
                                 <b>Frost Bite</b>
-                                <br> 
+                              
+                                +15% Damage (Ice) 
+                                <br>
+                                <br>
+                                <b>Piercing</b>
+                              
+                                +0.05 Base Crit Chance (MW) +15% Crit Bonus (MW)
+                            </td>
+                            <td>
+                                <b>Frost Bite</b>
+                               
+                                +15% Damage (Ice)
+                                <br>
+                                <br>
+                                <b>Piercing</b>
+                               
+                                +0.05 Base Crit Chance (MW) +15% Crit Bonus (MW)
+                            </td>
+                            <td>
+                                <b>Frost Bite</b>
+                               
                                 +30% Frost Damage 
                                 <br>
                                 <br>
                                 <b>Piercing</b>
-                                <br> 
-                                +0.10 Base Crit Chance (Main Weapon) +30% Crit Bonus (Main Weapon) 
+                               
+                                +0.10 Base Crit Chance (MW) +30% Crit Bonus (MW) 
                                 <br>
                                 <br>
                                 <b>Throat Clamp</b>
-                                <br> 
+                               
                                 +0.20 Base Crit Bonus (Hound)
                             </td>
                         </tr>
@@ -305,90 +311,94 @@ const sageAccordion = `
                             <th scope="row">Stance</th>
                             <td>
                                 <b>Blizzard</b>
-                                <br> 
+                               
                                 +20% Frost Chance 
                                 <br>
                                 <br>
                                 <b>Power</b>
-                                <br> 
-                                +20% Damage (Main Weapon)
+                               
+                                +20% Damage (MW)
                             </td>
                             <td>
                                 <b>Blizzard</b>
-                                <br> 
+                               
                                 +20% Frost Chance 
                                 <br>
                                 <br>
                                 <b>Power</b>
-                                <br> 
-                                +20% Damage (Main Weapon)
+                               
+                                +20% Damage (MW)
                             </td>
                             <td>
                                 <b>Blizzard</b>
-                                <br> 
+                               
                                 +20% Frost Chance 
                                 <br>
                                 <br>
                                 <b>Power</b>
-                                <br> 
-                                +20% Damage (Main Weapon)
+                               
+                                +20% Damage (MW)
                             </td>
                             <td>
                                 <b>Blizzard</b>
-                                <br> 
+                               
                                 +40% Frost Chance 
                                 <br>
                                 <br>
                                 <b>Power</b>
-                                <br> 
-                                +40% Damage (Main Weapon) 
+                               
+                                +40% Damage (MW) 
                                 <br>
                                 <br>
                                 <b>Wild Hound</b>
-                                <br> 
-                                +100% Attackspeed (Hound) +40% Area (Hound) +150 Base Damage (Hound)
+                               
+                                +100% Attackspeed (Hound) 
+                                <br>
+                                +40% Area (Hound) 
+                                <br>
+                                +150 Base Damage (Hound)
                             </td>
                         </tr>
                         <tr>
                             <th scope="row">Dedication</th>
                             <td>
                                 <b>Flight</b>
-                                <br> 
-                                +15% Force (Main Weapon) +3 Base Defense 
+                               
+                                +15% Force (MW) +3 Base Defense 
                                 <br>
                                 <br>
                                 <b>Flight</b>
-                                <br> 
+                               
                                 +9% Movement Speed +50 Base Health
                             </td>
                             <td>
                                 <b>Fight</b>
-                                <br> 
-                                +15% Force (Main Weapon) +50 Base Health 
+                               
+                                +15% Force (MW) +50 Base Health 
                                 <br>
                                 <br>
                                 <b>Flight</b>
-                                <br> 
+                               
                                 +9% Movement Speed +0.25/s Base Regeneration
                             </td>
                             <td>
                                 <b>Fight</b>
-                                <br> 
-                                +15% Force (Main Weapon) +3 Base Defense 
+                               
+                                +15% Force (MW) +3 Base Defense 
                                 <br>
                                 <br>
                                 <b>Flight</b>
-                                <br> 
+                               
                                 +9% Movement Speed +50 Base Health
                             </td>
                             <td>
                                 <b>Fight</b>
-                                <br> 
-                                +15% Force (Main Weapon) +50 Base Health 
+                               
+                                +15% Force (MW) +50 Base Health 
                                 <br>
                                 <br>
                                 <b>Flight</b>
-                                <br> 
+                               
                                 +9% Movement Speed +0.25/s Base Regeneration
                             </td>
                         </tr>
