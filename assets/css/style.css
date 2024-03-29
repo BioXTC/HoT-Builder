@@ -75,3 +75,46 @@ b {
 th {
   text-align: center;
 }
+
+.minusNumber {
+  color: red;
+}
+
+.class__header {
+  font-size: 65px;
+  
+}
+
+.class__header-img,
+.weapon__img {
+  height: 75px;
+  width: auto;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.weapon__img {
+  display: block;
+  margin: 0 auto;
+}
+.footer__attribution {
+  color: red;
+}
+
+footer {
+  padding: 30px
+}
+footer p {
+  color: rgba(255, 255, 255, 0.552)
+}
+
+blockquote p {
+  text-align: left;
+  color: black;
+  font-size: 70%;
+}
+
+blockquote b {
+  color: black;
+  font-size: 70%;
+}

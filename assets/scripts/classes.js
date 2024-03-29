@@ -2,7 +2,7 @@ const sageAccordion = `
     <div class="accordion" id="sageTable">
         <div class="accordion-item">
             <h2 class="accordion-header" id="sageTraits">
-            <h1 class="text-center metal-mania-regular">SAGE</h1>
+            <h1 class="text-center metal-mania-regular class__header"><img class="class__header-img" src="https://static.wikia.nocookie.net/halls-of-torment/images/d/d6/Tr_Dedication_Sage.png">SAGE</h1>
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#flush-collapseSageTraits" aria-expanded="false"
                     aria-controls="flush-collapseSageTraits">
@@ -82,22 +82,21 @@ const sageAccordion = `
                                     <b>Concentration</b>
                                     +50% Damage (A)
                                     <br>
-                                    -25% Attack Speed (A)
+                                    <span class="minusNumber">-25% Attack Speed (A)</span>
                                     <br>
-                                    -25% Movement Speed (A)
+                                    <span class="minusNumber">-25% Movement Speed (A)</span>
                                     <br>
                                     <br>
                                     <b>Elements</b>
-                                    +20%
-                                    Elemental Effect Chance (MW)
+                                    +20% Elemental Effect Chance (MW)
                                 </td>
                                 <td>
                                     <b>Concentration</b>
                                    +50% Crit Chance (A)
                                    <br>
-                                   -10% Attack Speed (A)
+                                   <span class="minusNumber">-10% Attack Speed (A)</span>
                                     <br>
-                                    -20% Force (A)
+                                    <span class="minusNumber">-20% Force (A)</span>
                                     <br>
                                     <br>
                                     <b>Elements</b>
@@ -107,9 +106,9 @@ const sageAccordion = `
                                     <b>Concentration</b>
                                     +50% Crit Bonus (A)
                                     <br>
-                                    -25% Area (A)
+                                    <span class="minusNumber">-25% Area (A)</span>
                                     <br>
-                                    -25% Range (A)
+                                    <span class="minusNumber">-25% Range (A)</span>
                                     <br>
                                     <br>
                                     <b>Elements</b>
@@ -119,7 +118,7 @@ const sageAccordion = `
                                     <b>Concentration</b>
                                     +75% Damage (A)
                                     <br>
-                                    -25% Multistrike (A)
+                                    <span class="minusNumber">-25% Multistrike (A)</span>
                                     <br>
                                     <br>
                                     <b>Elements</b>
@@ -239,7 +238,7 @@ const beastAccordion = `
 <div class="accordion" id="beastTable">
     <div class="accordion-item">
     
-        <h2 class="accordion-header" id="beastTraits"><h1 class="text-center metal-mania-regular">Beast Huntress</h1>
+        <h2 class="accordion-header" id="beastTraits"><h1 class="text-center metal-mania-regular class__header"><img class="class__header-img" src="https://static.wikia.nocookie.net/halls-of-torment/images/3/31/Tr_Dedication_Beast_Huntress.png">Beast Huntress</h1>
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#flush-collapseBeastTraits" aria-expanded="false"
                 aria-controls="flush-collapseBeastTraits">
@@ -278,7 +277,9 @@ const beastAccordion = `
                                 <br>
                                 <br>
                                 <b>Piercing</b>
-                                +0.05 Base Crit Chance (MW) +15% Crit Bonus (MW)
+                                +0.05 Base Crit Chance (MW) 
+                                <br>
+                                +15% Crit Bonus (MW)
                             </td>
                             <td>
                                 <b>Frost Bite</b>
@@ -286,7 +287,9 @@ const beastAccordion = `
                                 <br>
                                 <br>
                                 <b>Piercing</b>
-                                +0.05 Base Crit Chance (MW) +15% Crit Bonus (MW)
+                                +0.05 Base Crit Chance (MW) 
+                                <br>
+                                +15% Crit Bonus (MW)
                             </td>
                             <td>
                                 <b>Frost Bite</b>
@@ -350,23 +353,9 @@ const beastAccordion = `
                             <th scope="row">Dedication</th>
                             <td>
                                 <b>Flight</b>
-                                +15% Force (MW) +3 Base Defense 
+                                +15% Force (MW)
                                 <br>
-                                <br>
-                                <b>Flight</b>
-                                +9% Movement Speed +50 Base Health
-                            </td>
-                            <td>
-                                <b>Fight</b>
-                                +15% Force (MW) +50 Base Health 
-                                <br>
-                                <br>
-                                <b>Flight</b>
-                                +9% Movement Speed +0.25/s Base Regeneration
-                            </td>
-                            <td>
-                                <b>Fight</b>
-                                +15% Force (MW) +3 Base Defense 
+                                +3 Base Defense 
                                 <br>
                                 <br>
                                 <b>Flight</b>
@@ -376,7 +365,33 @@ const beastAccordion = `
                             </td>
                             <td>
                                 <b>Fight</b>
-                                +15% Force (MW) +50 Base Health 
+                                +15% Force (MW) 
+                                <br>
+                                +50 Base Health 
+                                <br>
+                                <br>
+                                <b>Flight</b>
+                                +9% Movement Speed 
+                                <br>
+                                +0.25/s Base Regeneration
+                            </td>
+                            <td>
+                                <b>Fight</b>
+                                +15% Force (MW) 
+                                <br>
+                                +3 Base Defense 
+                                <br>
+                                <br>
+                                <b>Flight</b>
+                                +9% Movement Speed 
+                                <br>
+                                +50 Base Health
+                            </td>
+                            <td>
+                                <b>Fight</b>
+                                +15% Force (MW) 
+                                <br>
+                                +50 Base Health 
                                 <br>
                                 <br>
                                 <b>Flight</b>
@@ -395,49 +410,66 @@ const beastAccordion = `
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#flush-collapseBeastBase" aria-expanded="false"
                     aria-controls="flush-collapseBeastBase">
-                    Base Stats
+                    Weapon and Damage
                 </button>
             </h2>
             <div id="flush-collapseBeastBase" class="accordion-collapse collapse" aria-labelledby="beastBase">
                 <div class="accordion-body">
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th scope="col">Defensive</th>
-                                <th scope="col">Weak traits</th>
-                                <th scope="col">Misc</th>
-                                <th scope="col">Level Up Bonuses</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td scope="row">Max HP: 250</td>
-                                <td>Vitality (Health)</td>
-                                <td>Movement Speed: 4.5m/s</td>
-                                <td>
-                                    <b>Per Level</b>
-                                    <br>
-                                    Pickup Range +1%
-                                    <br>
-                                    Damage +1%
-                                </td>
-                            </tr>
-                            <tr>
-                                <td scope="row">Health Regeneration: 0.0/s</td>
-                                <td>Metabolism (Health Regeneration)</td>
-                                <td>Pickup Range: 2.5m</td>
-                            </tr>
-                            <tr>
-                                <td scope="row">Defense: 0</td>
-                                <td>Parry (Block Strength)</td>
-                                <td>XP Gain: 100%</td>
-                            </tr>
-                            <tr>
-                                <td scope="row">Block Strength: 0</td>
-                                <td>Thick Hide (Defense)</td>
-                            </tr>
-                        </tbody>
-                    </table>
+
+                <!--Weapon Card Start-->
+                <div class="card">
+                <div class="card-header text-center">
+                  Main Weapon
+                </div>
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                  
+                    <img class="weapon__img" src="https://static.wikia.nocookie.net/halls-of-torment/images/4/4d/Tr_Weapon_Beast_Huntress.png">
+                    <div class="container-fluid">
+                  <div class="row">
+                  <div class="col-6">
+                  <b>Damage Types
+                    </b>
+                    <p><b>Frost Spear:</b> 
+                    <br>
+                    Ice
+                    </p>
+                    <p>Hound:
+                    <br>
+                     Physical
+                    </p>
+                    
+                   
+                    <div class="col-6">
+                    <b>Properties
+                    </b>
+                    <p>Frost Spear: 
+                    <br>
+                    Main Weapon
+                    <br>
+                    Projectile
+                    <br>
+                    Elemental
+                    </p>
+                    <p>
+                    Hound:
+                    <br> 
+                    Main Weapon 
+                    <br> 
+                    Melee
+                    <br>
+                    Summon
+                    <br>
+                    Hound
+                    </p>
+                    </div>
+                </div>
+                </div>     
+                  </blockquote>
+                </div>
+              </div>
+             
+              <!--Weapon Card End-->
                 </div>
             </div>
         </div>
